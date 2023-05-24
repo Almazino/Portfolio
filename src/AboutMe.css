@@ -1,0 +1,20 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: monospace;
+    padding: 20px;
+    background-color: #5e4c7b; /* Фиолетовый цвет фона */
+    color: #ffffff; /* Белый цвет текста */
+    font-family: monospace;
+  }
+  
+  .title {
+    color: #ffffff; /* Белый цвет заголовка */
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #f7b500; /* Желтый цвет для выделения */
+    font-weight: bold;
+  }
+  

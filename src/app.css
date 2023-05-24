@@ -1,0 +1,186 @@
+/* App.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.portfolio-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.portfolio-item h3 {
+    color: #ff6600;
+}
+
+.portfolio-item p {
+    color: #fff;
+}
+
+.portfolio-item a {
+    color: #ff6600;
+}
+
+.footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 70px;
+    justify-content: center;
+    height: 550px;
+    background-image: url('../public/img1.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    font-family:monospace;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 30px;
+}
+.tags{
+    margin: 20px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.tags:hover{
+    font-size: 24px;
+    color: black;
+}
+.text1{
+    margin: 0;
+}
+.text2{
+    margin: 0;
+    font-size: 15px;
+}
+.section2 {
+    background-color: blueviolet;
+    font-size: 17px;
+}
+body{
+    background-color: blueviolet;
+}
+.section3{
+    font-family: monospace;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: white;
+    background-color: #5e4c7b;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 5% 25% 5% 25% 5% 25% 5%;
+    grid-template-rows: 10% 5% 85%;
+}
+.topick{
+    padding: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 200px;
+    grid-column: 4;
+    grid-row: 1;
+}
+.portfolio-item1{
+    background-color: #222;
+    grid-column: 2;
+    grid-row: 3;
+    width: 300px;
+    padding: 25px;
+    height: 400px;
+}
+
+.portfolio-item2{
+    padding: 25px;
+    background-color: #222;
+    grid-column: 4;
+    grid-row: 3;
+    width: 300px;
+    height: 400px;
+}
+
+.portfolio-item3{
+    padding: 25px;
+    background-color: #222;
+    grid-column: 6;
+    grid-row: 3;
+    width: 300px;
+    height: 400px;
+}
+.cards a{
+    color: orangered;
+}
+.section4{
+    text-align: center;
+    margin: 0 auto;
+    width: 550px;
+    color: white;
+    margin-top: 5%;
+}
+.section4 h2 {
+    font-size: 40px;
+}
+.boxs a {
+    background-color:  blueviolet;
+    fill: white;
+    width: 35px;
+    height: 35px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.boxs a:hover {
+    background-color: white;
+    fill: blueviolet;
+}
+.boxs {
+    height: 200px;
+     display: flex;
+     justify-content: center;
+}
